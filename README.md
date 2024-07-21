@@ -36,7 +36,12 @@ This project demonstrates how to build a RESTful microservice using Flask, a lig
 ## Testing Your API
 - You can test your API using curl, Postman, or a web browser.
 
-- GET Request:
- curl http://127.0.0.1:5000/api/hello
-- POST Request:
+- **For a GET Request**:
+  
+  ```bash
+  curl http://127.0.0.1:5000/api/hello
+
+- ** For a POST Request**:
+  
+  ```bash
   curl -X POST http://127.0.0.1:5000/api/greet -H "Content-Type: application/json" -d '{"name": "Alice"}'
